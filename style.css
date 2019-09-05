@@ -1,0 +1,49 @@
+.container{
+  display:grid;
+  grid-gap:20px;
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+}
+
+.green{
+  grid-column:span 2;
+  grid-row:3\1;
+
+}
+
+
+
+.zone{
+  cursor:pointer;
+/*  display:block;*/
+  font-size:10em;
+  text-align:center;
+  border-radius:5px;
+  border:1px solid black;
+  transition:all 0.3s linear;
+}
+
+zone:hover{
+  box-shadow:rgba(0, 0, 0, 0.5);
+}
+.green{
+  background-color:#24fc03 ;
+
+}
+.red{
+  background-color:#ad0026;
+
+}
+.blue{
+
+  background-color:#404eb3;
+}
+.yellow{
+  background-color:#ebfc26;
+
+}
+.purple{
+  background-color:#c32fd4;
+}
+.brown{
+  background-color:#373834;
+}
